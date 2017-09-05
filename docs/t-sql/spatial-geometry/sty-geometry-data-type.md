@@ -40,7 +40,7 @@ The Y-coordinate property of a **Point** instance.
  CLR type: **SqlDouble**  
   
 ## Remarks  
- The value of this property will be null if the **geometry** instance is a point. This property is read-only.  
+ The value of this property will be null if the **geometry** instance is not a point. This property is read-only.  
   
 ## Examples  
  The following example creates a `Point` instance and uses `STY` to retrieve the Y-coordinate of the instance.  
